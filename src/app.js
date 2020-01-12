@@ -9,6 +9,7 @@ function App() {
       <canvas id="nokey">Your Browser Don't Support Canvas, Please Download Chrome ^_^``
     </canvas>
       <div className="portfolio">
+        <Task task={{ name: 'Curriculum Vitae', url: 'https://github.com/ramp4/rsschool-cv/blob/gh-pages/cv.md' }} />
         <Task task={{ name: 'Fancy Weather', url: 'https://vveather.netlify.com/' }} />
         <Task task={{ name: 'Repair Design Project', url: 'https://repair-project.netlify.com/' }} />
         <Task task={{ name: 'The Yalow', url: 'https://the-yalow.netlify.com//' }} />
