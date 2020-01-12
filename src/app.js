@@ -1,6 +1,6 @@
 import React from "react";
 import { hot } from "react-hot-loader";
-// import "./App.css";
+import "./App.css";
 import Task from "./components/task";
 
 function App() {
