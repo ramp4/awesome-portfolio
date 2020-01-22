@@ -18,7 +18,6 @@ function App() {
         <Task task={{ name: 'Hexal', url: 'https://hexalogon.netlify.com' }} />
         <Task task={{ name: 'NeutronMail', url: 'https://neutron-email.netlify.com/' }} />
 
-
       </div>
     </div>
   );
