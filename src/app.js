@@ -13,7 +13,7 @@ function App() {
         <Task task={{ name: 'Fancy Weather - JS', url: 'https://vveather.netlify.com/' }} />
         <Task task={{ name: 'VK - React+Redux', url: 'https://vk-api.netlify.com/' }} />
         <Task task={{ name: 'News - React', url: 'https://news-page.netlify.com/' }} />
-        <Task task={{ name: 'Image-api JS', url: 'https://image-appi.netlify.com/' }} />
+        <Task task={{ name: 'Image-Api - JS', url: 'https://image-appi.netlify.com/' }} />
         <Task task={{ name: 'Repair Design Project - SCSS', url: 'https://repair-project.netlify.com/' }} />
         <Task task={{ name: 'The Yalow - CSS', url: 'https://the-yalow.netlify.com//' }} />
         <Task task={{ name: 'Hexal - CSS', url: 'https://hexalogon.netlify.com' }} />
