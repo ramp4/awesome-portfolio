@@ -10,15 +10,15 @@ class Summary extends React.PureComponent {
           Hello! My name is Artem Balunda, and I'm a Minsk-based Front-End
           Developer. I am currently studying at Belarusian State University of
           Informatics and Radioelectronics in Faculty of Computer Design. I
-          recently finished "JavaScript/Front-end" of Course The Rolling Scopes
-          School
+          recently finished online course "JavaScript/Front-end" of The Rolling
+          Scopes School.
         </p>
         <p className="Summary__description">
           I want to start a career as a Junior Front-End Developer and grow up
           to the next step(Middle Frontend Developer).
         </p>
         <p className="Summary__description">
-          i have a diverse set of skills, ranging from design, HTML markup,
+          I have a diverse set of skills, ranging from design, HTML markup,
           CSS/SASS styling, all the way to JavaScript, TypeScript, React+Redux
           development.
         </p>
