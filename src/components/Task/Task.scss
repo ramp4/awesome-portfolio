@@ -1,8 +1,10 @@
 .Task {
   width: 20rem;
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  position: relative;
 
   .MuiPaper-rounded {
+    border-radius: none !important;
+    box-shadow: none !important;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.75) 10%, rgba(255, 255, 255, 0.75) 90%, rgba(0, 0, 0, 0) 100%);
   }
 
@@ -19,5 +21,13 @@
     text-decoration: none;
     text-decoration: underline;
     color: black;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    height: 1px;
   }
 }

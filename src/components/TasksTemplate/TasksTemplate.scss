@@ -1,5 +1,4 @@
 .TasksTemplate {
-  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -7,4 +6,7 @@
   flex-wrap: wrap;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 2;
 }
