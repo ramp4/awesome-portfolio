@@ -10,8 +10,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
+ z-index: 2;
   position: relative;
+
+ @keyframes animateLine {
+    0% {
+      width: 25%;
+    }
+
+    50% {
+      width: 105%;
+    }
+
+    100% {
+      width: 25%;
+    }
+  }
 
   &::before {
     position: absolute;
@@ -19,7 +33,10 @@
     height: 0.5rem;
     width: 105%;
     background: black;
+    animation: animateLine 25s ease-in infinite;
   }
+
+ 
 
   &::after {
     position: absolute;
@@ -28,6 +45,7 @@
     width: 105%;
     background: black;
     bottom: 0;
+    animation: animateLine 5s ease-out infinite;
   }
 
 
@@ -45,6 +63,7 @@
     font-size: 1.5rem;
     margin: 1rem 0 1rem 0;
   }
+
 
 
 }

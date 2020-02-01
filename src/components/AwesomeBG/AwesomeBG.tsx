@@ -85,7 +85,7 @@ class AwesomeBG extends React.PureComponent<any> {
             }
           },
           interactivity: {
-            detect_on: "canvas",
+            detect_on: "window",
             events: {
               onhover: {
                 enable: true,
