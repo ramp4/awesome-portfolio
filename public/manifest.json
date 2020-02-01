@@ -1,0 +1,8 @@
+{
+  "short_name": "Aviasales",
+  "name": "Aviasales Task Solution",
+  "start_url": "https://aviascales.netlify.com",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
