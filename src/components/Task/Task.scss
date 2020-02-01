@@ -1,0 +1,25 @@
+.Task {
+  width: 20rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+
+  .MuiPaper-rounded {
+    border-radius: none !important;
+    box-shadow: none !important;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.75) 10%, rgba(255, 255, 255, 0.75) 90%, rgba(0, 0, 0, 0) 100%);
+  }
+
+  .MuiButtonBase-root:hover {
+
+    background: linear-gradient(180deg, rgba($color: silver, $alpha: 100) 0%, rgba($color: silver, $alpha: 0) 100%);
+  }
+
+  .Task__name {
+    font-weight: 600;
+  }
+
+  .Task__link {
+    text-decoration: none;
+    text-decoration: underline;
+    color: black;
+  }
+}

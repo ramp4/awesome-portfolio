@@ -10,10 +10,10 @@ class AwesomeBG extends React.PureComponent<any> {
         params={{
           particles: {
             number: {
-              value: 25,
+              value: 50,
               density: {
                 enable: true,
-                value_area: 500
+                value_area: 450
               }
             },
             color: {
@@ -53,7 +53,7 @@ class AwesomeBG extends React.PureComponent<any> {
               }
             },
             size: {
-              value: 15,
+              value: 10,
               random: true,
               anim: {
                 enable: false,
@@ -66,12 +66,12 @@ class AwesomeBG extends React.PureComponent<any> {
               enable: true,
               distance: 150,
               color: "#000000",
-              opacity: 0.75,
+              opacity: 0.5,
               width: 1
             },
             move: {
               enable: true,
-              speed: 6,
+              speed: 2,
               direction: "none",
               random: false,
               straight: false,
@@ -85,7 +85,7 @@ class AwesomeBG extends React.PureComponent<any> {
             }
           },
           interactivity: {
-            detect_on: "window",
+            detect_on: "canvas",
             events: {
               onhover: {
                 enable: true,
@@ -106,8 +106,8 @@ class AwesomeBG extends React.PureComponent<any> {
               },
 
               repulse: {
-                distance: 150,
-                duration: 0.4
+                distance: 250,
+                duration: 1
               },
               push: {
                 particles_nb: 4

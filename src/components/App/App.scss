@@ -1,0 +1,19 @@
+html {
+    font-size: 1vw;
+}
+
+.App {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    min-width: 100vw;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1400px) {
+    html {
+        font-size: 14px;
+    }
+}
