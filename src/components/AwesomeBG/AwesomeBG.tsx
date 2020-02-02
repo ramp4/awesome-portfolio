@@ -106,7 +106,7 @@ class AwesomeBG extends React.PureComponent<any> {
               },
               onclick: {
                 enable: true,
-                mode: "repulse"
+                mode: "push"
               },
               resize: true
             },
@@ -123,7 +123,7 @@ class AwesomeBG extends React.PureComponent<any> {
                 duration: 1
               },
               push: {
-                particles_nb: 4
+                particles_nb: 1
               },
               remove: {
                 particles_nb: 2
