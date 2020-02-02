@@ -3,17 +3,30 @@ import "./AwesomeBG.scss";
 import Particles from "react-particles-js";
 
 class AwesomeBG extends React.PureComponent<any> {
+  calcRepulseDistance = () => {
+    return Math.floor(window.screen.width / 5);
+  };
+
+  calcValueArea = () => {
+    return Math.floor(window.screen.width / 5);
+  };
+
+  calcValueCount = () => {
+    return Math.floor(window.screen.width / 40);
+  };
+
   render() {
     return (
       <Particles
         className="awesome-bg"
         params={{
+          fps_limit: 144,
           particles: {
             number: {
-              value: 50,
+              value: this.calcValueCount(),
               density: {
                 enable: true,
-                value_area: 450
+                value_area: this.calcValueArea()
               }
             },
             color: {
@@ -53,7 +66,7 @@ class AwesomeBG extends React.PureComponent<any> {
               }
             },
             size: {
-              value: 10,
+              value: 13,
               random: true,
               anim: {
                 enable: false,
@@ -106,7 +119,7 @@ class AwesomeBG extends React.PureComponent<any> {
               },
 
               repulse: {
-                distance: 250,
+                distance: this.calcRepulseDistance(),
                 duration: 1
               },
               push: {
