@@ -11,6 +11,26 @@
   .MuiButtonBase-root:hover {
 
     background: linear-gradient(180deg, rgba($color: silver, $alpha: 100) 0%, rgba($color: silver, $alpha: 0) 100%);
+
+
+  }
+
+  .MuiExpansionPanelDetails-root {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: -1px;
+      height: 1px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
   }
 
   .Task__name {
@@ -23,8 +43,13 @@
     color: black;
   }
 
+  .Task__description {
+    width: 100%;
+  }
+
   &::after {
     content: "";
+    bottom: 0px;
     position: absolute;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.25);
