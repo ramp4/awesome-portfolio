@@ -33,7 +33,7 @@ class Summary extends React.PureComponent {
           Specialty: Electronic Security Systems
         </p>
         <p className="Summary__description">
-          <b>English Skills:</b> Upper-Intermediate B1
+          <b>English Skills:</b> Intermediate B1
         </p>
         <p className="Summary__description">
           <b>Contact e-mai</b>l:{" "}
