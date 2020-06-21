@@ -4,7 +4,6 @@ export default [
     url: "https://where-is-ur-todo.netlify.app",
     description: "React",
   },
-
   {
     name: "CEO Group test",
     url: "https://ggroup-test.netlify.app/",
