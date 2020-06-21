@@ -2,7 +2,7 @@ export default [
   {
     name: "ToDo",
     url: "https://where-is-ur-todo.netlify.app",
-    description: "React",
+    description: "React, Bootstrap",
   },
   {
     name: "CEO Group test",
